@@ -31,7 +31,7 @@ function Projects() {
             </div>
             <br />
             <div className="project">
-                <h3>Wikipedia Interface:</h3>
+                <h3><u>Wikipedia Interface:</u></h3>
                 <br />
 
                 <p>Created a mock Wikipedia interface, making it more clear/concise and efficient with less screen clutter for the users.</p>
