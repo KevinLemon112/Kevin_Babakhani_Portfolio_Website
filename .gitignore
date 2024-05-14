@@ -1,0 +1,14 @@
+# Dependency directories
+/node_modules
+
+# Production build directory
+/build
+
+# Environment variables file
+.env.local
+
+# Mac OS files
+.DS_Store
+
+# Visual Studio Code files
+.vscode
