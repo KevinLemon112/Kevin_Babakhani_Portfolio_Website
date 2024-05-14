@@ -46,8 +46,8 @@ Family History Website — HTML
 
 ## Contact Me
 
-Email: kevinbabakhani@yahoo.com
-LinkedIn: http://www.linkedin.com/in/kevin-babakhani-640199214
+- Email: kevinbabakhani@yahoo.com
+- LinkedIn: http://www.linkedin.com/in/kevin-babakhani-640199214
 
 ## Technologies Used
 
