@@ -1,4 +1,5 @@
 import React from 'react';
+import './Skills.css'; // Import your Skills CSS file
 
 function Skills() {
     return (
@@ -10,40 +11,40 @@ function Skills() {
                 <h3><u>Programming/Software:</u></h3>
                 <br />
 
-                <ul>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>Git/GitHub</li>
-                    <li>Python</li>
-                    <li>C</li>
-                    <li>HTML</li>
-                    <li>Linux</li>
-                    <li>MySQL</li>
-                    <li>JavaFX</li>
-                    <li>Atlassian: Confluence/Jira</li>
-                    <li>TypeScript</li>
-                    <li>JavaScript</li>
-                    <li>Docker</li>
-                    <li>MongoDB</li>
-                    <li>Firebase</li>
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                    <li>React</li>
-                </ul>
+                <div className="skill-item">Java</div>
+                <div className="skill-item">C++</div>
+                <div className="skill-item">Git/GitHub</div>
+                <div className="skill-item">Python</div>
+                <div className="skill-item">C</div>
+                <div className="skill-item">HTML</div>
+                <div className="skill-item">Linux</div>
+                <div className="skill-item">MySQL</div>
+                <div className="skill-item">JavaFX</div>
+                <div className="skill-item">Atlassian: Confluence/Jira</div>
+                <div className="skill-item">TypeScript</div>
+                <div className="skill-item">JavaScript</div>
+                <div className="skill-item">Docker</div>
+                <div className="skill-item">MongoDB</div>
+                <div className="skill-item">Firebase</div>
+                <div className="skill-item">Flutter</div>
+                <div className="skill-item">Dart</div>
+                <div className="skill-item">React</div>
             </div>
-            <div className="skills-list">
-                
             <br />
+            <br />
+            <br />
+            <br />
+            
+            <div className="skills-list">
+                <br />
                 <h3><u>Miscellaneous:</u></h3>
                 <br />
 
-                <ul>
-                    <li>Excel/Word/Teams</li>
-                    <li>HTTP</li>
-                    <li>Bilingual</li>
-                    <li>YouTube Content Creator</li>
-                    <li>Works Well In Group Settings</li>
-                </ul>
+                <div className="skill-item">Excel/Word/Teams</div>
+                <div className="skill-item">HTTP</div>
+                <div className="skill-item">Bilingual</div>
+                <div className="skill-item">YouTube Content Creator</div>
+                <div className="skill-item">Works Well In Group Settings</div>
             </div>
         </section>
     );

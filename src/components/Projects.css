@@ -1,0 +1,30 @@
+#projects {
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 1.75rem;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}

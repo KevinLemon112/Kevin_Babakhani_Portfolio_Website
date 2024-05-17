@@ -1,0 +1,36 @@
+#contact {
+    padding: 20px;
+}
+
+.contact-method {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact-method h3::after  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+
+    content: "\00a0"; /* Adds a non-breaking space */
+}
+
+.contact-method h3 .fa-icon {
+    margin-right: 10px;
+}
+
+.contact-method a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}

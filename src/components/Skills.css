@@ -1,0 +1,23 @@
+#skills {
+    padding: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    min-width: 100px;
+    text-align: center;
+}
+
+.skill-item:hover {
+    background-color: #bb86fc;
+}
