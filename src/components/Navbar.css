@@ -33,3 +33,51 @@ nav {
 .navbar-right ul li a:hover {
     text-decoration: underline;
 }
+
+
+/* Keyframes for writing effect */
+@keyframes write {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Apply the animation to each navbar link */
+  nav ul li a,
+  nav .navbar-brand {
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    animation: write 2s steps(30, end) forwards;
+    border-right: 2px solid #e0e0e0; /* Blinking cursor effect */
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  /* Style for the cursor blinking effect */
+  nav ul li a::after,
+  nav .navbar-brand::after {
+    content: '|';
+    animation: blink 1s infinite;
+    opacity: 0;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Hide the cursor and border after animation */
+  nav ul li a.completed,
+  nav .navbar-brand.completed {
+    border-right: none;
+  }
+  
+  nav ul li a.completed::after,
+  nav .navbar-brand.completed::after {
+    display: none;
+  }
+  

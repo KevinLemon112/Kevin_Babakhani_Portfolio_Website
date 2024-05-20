@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -7,8 +7,12 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 function App() {
+    useEffect(() => {
+        const mainContainer = document.querySelector('.app-container');
+        mainContainer.classList.add('fade-in');
+    }, []);
     return (
-        <div className="App">
+        <div className="app-container">
             <Navbar />
             <About />
             <Projects />
