@@ -20,6 +20,13 @@
 
 }
 
+.about-image {
+    width: 50%; /* Make the image responsive */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 #about a {
     color: #007bff; /* Default link color */
     text-decoration: none;

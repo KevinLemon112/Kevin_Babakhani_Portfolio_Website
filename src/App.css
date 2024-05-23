@@ -210,4 +210,14 @@ footer {
     .contact-method {
         word-wrap: break-word;
     }
+
+    .lottie-container {
+        position: absolute;
+        top: 50%;
+        left: 47%;
+        transform: translate(2%, -60%);
+        z-index: 1000;
+        width: 200px;
+        height: 200px;
+    }
 }

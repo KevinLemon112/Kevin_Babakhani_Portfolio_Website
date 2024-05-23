@@ -1,0 +1,38 @@
+/* LottieAnimation.css */
+.lottie-container {
+    /* Keep position relative to stay in the about section */
+    position: absolute; /* Change relative to absolute */
+    top: 30%;
+    left: 50%;
+    transform: translate(2%, -60%);
+    z-index: 1000;
+    width: 400px;
+    height: 400px;
+}
+
+/* Fade in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Fade out animation */
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 1.20s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

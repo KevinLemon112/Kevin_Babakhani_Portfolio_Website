@@ -29,6 +29,7 @@ function Skills() {
                 <div className="skill-item">Flutter</div>
                 <div className="skill-item">Dart</div>
                 <div className="skill-item">React</div>
+                <div className="skill-item">NodeJS</div>
             </div>
             <br />
             <br />

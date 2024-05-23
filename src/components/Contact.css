@@ -11,6 +11,12 @@
     margin-bottom: 15px;
     text-align: center;
     font-size: 1.5rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.contact-method:hover {
+    background-color: #444; /* Change to a slightly lighter grey */
+    border-color: #bbb; /* Change border color on hover */
 }
 
 .contact-method h3::after  {

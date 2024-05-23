@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import LottieAnimation from './components/LottieAnimation';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -13,6 +14,7 @@ function App() {
     }, []);
     return (
         <div className="app-container">
+            <LottieAnimation />
             <Navbar />
             <About />
             <Projects />

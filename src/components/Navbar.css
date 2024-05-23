@@ -1,83 +1,87 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-
-    font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(51, 51, 51, 0.8); /* Adjust the alpha value for transparency */
+  color: #fff;
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s, background-color 0.3s; /* Add transition for background-color */
+  backdrop-filter: blur(10px); /* Apply blur effect */
 }
 
+/* Additional styling for navbar elements */
+
 .navbar-left {
-    flex: 1; /* Takes up remaining space on the left */
+  flex: 1; /* Takes up remaining space on the left */
 }
 
 .navbar-right ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .navbar-right ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .navbar-right ul li a {
-    text-decoration: none;
-    color: #fff;
-    position: relative;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
 }
 
 .navbar-right ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /* Keyframes for writing effect */
 @keyframes write {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
+  from {
+    width: 0;
   }
-  
-  /* Apply the animation to each navbar link */
-  nav ul li a,
-  nav .navbar-brand {
-    overflow: hidden;
-    display: inline-block;
-    white-space: nowrap;
-    animation: write 2s steps(30, end) forwards;
-    border-right: 2px solid #e0e0e0; /* Blinking cursor effect */
-    margin-right: 10px; /* Add margin for spacing */
+  to {
+    width: 100%;
   }
-  
-  /* Style for the cursor blinking effect */
-  nav ul li a::after,
-  nav .navbar-brand::after {
-    content: '|';
-    animation: blink 1s infinite;
-    opacity: 0;
-  }
-  
-  @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  /* Hide the cursor and border after animation */
-  nav ul li a.completed,
-  nav .navbar-brand.completed {
-    border-right: none;
-  }
-  
-  nav ul li a.completed::after,
-  nav .navbar-brand.completed::after {
-    display: none;
-  }
-  
+}
+
+/* Apply the animation to each navbar link */
+nav ul li a,
+nav .navbar-brand {
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  animation: write 2s steps(30, end) forwards;
+  border-right: 2px solid #e0e0e0; /* Blinking cursor effect */
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+/* Style for the cursor blinking effect */
+nav ul li a::after,
+nav .navbar-brand::after {
+  content: '|';
+  animation: blink 1s infinite;
+  opacity: 0;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Hide the cursor and border after animation */
+nav ul li a.completed,
+nav .navbar-brand.completed {
+  border-right: none;
+}
+
+nav ul li a.completed::after,
+nav .navbar-brand.completed::after {
+  display: none;
+}
