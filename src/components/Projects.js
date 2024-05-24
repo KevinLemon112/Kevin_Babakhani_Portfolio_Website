@@ -1,10 +1,16 @@
 import React from 'react';
 import './Projects.css'; // Import your Projects CSS file
+import { FaFilePdf } from 'react-icons/fa';
 
 function Projects() {
     return (
         <section id="projects">
-            <h2>Projects</h2>
+            <div className="projects-header">
+                <h2>Projects</h2>
+                <a href="\Assets\Kevin Babakhani - Online Resume (2024).pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+                    <FaFilePdf /> Resume
+                </a>
+            </div>
             <div className="project">
                 <h3><u>SerenityNest — Flutter/Dart/Firebase </u></h3>
                 <p>Creation of a mental health android app called SerenityNest using Dart and Flutter on Android Studio to improve the mental health of all users. Includes user authorization functionality using Firebase.</p>
