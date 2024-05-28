@@ -145,7 +145,8 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 932px) {
+    /* Adjust styles for smaller screens */
     /* Adjust styles for smaller screens */
     .container {
         padding: 10px;
@@ -174,9 +175,9 @@ footer {
     /* Navigation styles */
     nav {
         background-color: #1f1f1f;
-        padding: 10px;
+        padding: 5px 10px; /* Reduced padding */
         z-index: 1000; /* Ensure it's above other elements */
-        font-size: 2.5rem;
+        font-size: 1.5rem; /* Reduced font size */
     }
     
     nav ul {
@@ -192,10 +193,9 @@ footer {
     }
     
     nav ul li {
-        margin-right: 10px;
-        padding: 12px;
-        font-size: 1.25rem;
-
+        margin-right: 4px; /* Reduced margin */
+        padding: 2px; /* Reduced padding */
+        font-size: 1rem; /* Reduced font size */
     }
     
     nav ul li a {
@@ -215,7 +215,7 @@ footer {
         position: absolute;
         top: 50%;
         left: 47%;
-        transform: translate(2%, -60%);
+        transform: translate(2%, -90%);
         z-index: 1000;
         width: 200px;
         height: 200px;
