@@ -2,35 +2,40 @@
     "name": "Kevin_Babakhani_Portfolio_Website",
     "version": "1.0.0",
     "description": "My portfolio website built with React",
+    "homepage": "https://kevinlemon112.github.io/Kevin_Babakhani_Portfolio_Website/",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^6.5.2",
-        "@fortawesome/free-brands-svg-icons": "^6.5.2",
-        "@fortawesome/free-solid-svg-icons": "^6.5.2",
-        "@fortawesome/react-fontawesome": "^0.2.1",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-icons": "^5.2.1",
-        "react-lottie": "^1.2.4"
+      "@fortawesome/fontawesome-svg-core": "^6.5.2",
+      "@fortawesome/free-brands-svg-icons": "^6.5.2",
+      "@fortawesome/free-solid-svg-icons": "^6.5.2",
+      "@fortawesome/react-fontawesome": "^0.2.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-icons": "^5.2.1",
+      "react-lottie": "^1.2.4"
     },
     "devDependencies": {
-        "react-scripts": "5.0.0"
+      "gh-pages": "^6.1.1",
+      "react-scripts": "5.0.0"
     },
     "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
     }
-}
+  }
+  

@@ -7,7 +7,7 @@ function Projects() {
         <section id="projects">
             <div className="projects-header">
                 <h2>Projects</h2>
-                <a href="\Assets\Kevin Babakhani - Online Resume (2024).pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+                <a href={process.env.PUBLIC_URL + '/Assets/Kevin Babakhani - Online Resume (2024).pdf'} className="resume-button" target="_blank" rel="noopener noreferrer">
                     <FaFilePdf /> Resume
                 </a>
             </div>
