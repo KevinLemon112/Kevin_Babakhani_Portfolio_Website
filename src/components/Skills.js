@@ -30,6 +30,10 @@ function Skills() {
                 <div className="skill-item">Dart</div>
                 <div className="skill-item">React</div>
                 <div className="skill-item">NodeJS</div>
+                <div className="skill-item">ExpressJS</div>
+                <div className="skill-item">Blender</div>
+                <div className="skill-item">C#</div>
+                <div className="skill-item">Unity</div>
             </div>
             <br />
             <br />
