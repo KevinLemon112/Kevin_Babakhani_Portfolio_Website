@@ -7,7 +7,7 @@ function Projects() {
         <section id="projects">
             <div className="projects-header">
                 <h2>Projects</h2>
-                <a href={process.env.PUBLIC_URL + '/Assets/Kevin Babakhani - Online Resume (2024).pdf'} className="resume-button" target="_blank" rel="noopener noreferrer">
+                <a href={process.env.PUBLIC_URL + '/Assets/Kevin Babakhani - Online Resume.pdf'} className="resume-button" target="_blank" rel="noopener noreferrer">
                     <FaFilePdf /> Resume
                 </a>
             </div>
@@ -24,30 +24,10 @@ function Projects() {
                 <p><strong>Website:</strong> <a href="https://broncohacks-2024-web-dev-bit-busters.github.io/Backend-Frontend/" target="_blank" rel="noopener noreferrer">CPP Bronco Dining Guide</a></p>
             </div>
             <div className="project">
-                <h3><u>luminosityleds (server) — NodeJS/ExpressJS/TypeScript </u></h3>
+                <h3><u>LuminosityLEDs — React/NodeJS/ExpressJS/
+                TypeScript/MongoDB/NextJS </u></h3>
                 <p>Software developer for the backend team of luminosityleds. Implemented notification service via code deployment to production cloud service.</p>
                 <p><strong>Github Repo:</strong> <a href="https://github.com/luminosityleds/server" target="_blank" rel="noopener noreferrer">luminosityleds (server) Repo</a></p>
-            </div>
-            <div className="project">
-                <h3><u>Wikipedia Interface — Java/JavaFX</u></h3>
-                <p>Created a mock Wikipedia interface, making it more clear/concise and efficient with less screen clutter for the users.</p>
-                <p><strong>GitHub Repo:</strong> <a href="https://github.com/KevinLemon112/Wikipedia-Interface-CS-2450-" target="_blank" rel="noopener noreferrer">Wikipedia Interface Repo</a></p>
-            </div>
-            <div className="project">
-                <h3><u>ATM Interface — C++/MySQL</u></h3>
-                <p>Creation of a mock ATM interface that allows the user to deposit and withdraw money as well as check their balance and create checking/savings accounts using GUI elements and database features.</p>
-                <p><strong>GitHub Repo:</strong> <a href="https://github.com/KevinLemon112/ATM-Interface-CS-3560-" target="_blank" rel="noopener noreferrer">ATM Interface Repo</a></p>
-            </div>
-            <div className="project">
-                <h3><u>Minesweeper — Python</u></h3>
-                <p>Creation of the classic Minesweeper game that allows users to play Minesweeper by taking in user input and displaying results with GUI elements and file input/output.</p>
-                <p><strong>GitHub Repo:</strong> <a href="https://github.com/KevinLemon112/Minesweeper-Game-CSIS-151-" target="_blank" rel="noopener noreferrer">Minesweeper Repo</a></p>
-            </div>
-            <div className="project">
-                <h3><u>Family History Website — HTML</u></h3>
-                <p>Display of front end skill set allowing users to learn about my family history via the creation of an HTML website.</p>
-                <p><strong>GitHub Repo:</strong> <a href="https://github.com/KevinLemon112/Family-Website" target="_blank" rel="noopener noreferrer">Family History Website Repo</a></p>
-                <p><strong>Website:</strong> <a href="https://kevinlemon112.github.io/Family-Website/" target="_blank" rel="noopener noreferrer">Family History Website</a></p>
             </div>
         </section>
     );
