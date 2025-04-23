@@ -45,6 +45,9 @@ function Skills() {
                 <div className="skill-item">Firebase</div>
                 <div className="skill-item">NextJS</div>
                 <div className="skill-item">Vercel</div>
+                <div className="skill-item">Axios</div>
+                <div className="skill-item">Mongoose</div>
+                <div className="skill-item">Vite</div>
             </div>
 
             <br />
