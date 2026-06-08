@@ -12,17 +12,19 @@ function Projects() {
                 </a>
             </div>
             <div className="project">
+                    <h3><u>SerenityStrings — TypeScript/ReactJS/Python/
+                    FastAPI/TailwindCSS/ToneJS/Axios </u></h3>
+                    <p>Creation of a full-stack music theory and guitar learning platform featuring an interactive fretboard, 
+                    chord progression generator, scale explorer, metronome,
+                    and guitar tuner to help musicians practice, compose, and improve their understanding of music theory.</p>
+                    <p><strong>GitHub Repo:</strong> <a href="https://github.com/SerenityStrings" target="_blank" rel="noopener noreferrer">SerenityStrings Repo</a></p>
+                </div>
+            <div className="project">
                 <h3><u>LuminosityLEDs — React/NodeJS/ExpressJS/
                 TypeScript/MongoDB/NextJS </u></h3>
                 <p>Software developer for the backend team of LuminosityLEDs. Implemented notification service via code deployment to production cloud service.</p>
                 <p><strong>Github Repo:</strong> <a href="https://github.com/luminosityleds/browser" target="_blank" rel="noopener noreferrer">LuminosityLEDs (Browser) Repo</a></p>
             </div>
-            <div className="project">
-                    <h3><u>Murmur — TypeScript/ReactJS/Python/FastAPI/
-                    Firebase/Vite/Tailwind CSS/Axios </u></h3>
-                    <p>Creation of a real-time support tool for caregivers of neurodivergent children. It guides users through emotionally intense moments by helping them identify observable behavior and receive trauma-informed, empathetic responses generated via AI.</p>
-                    <p><strong>GitHub Repo:</strong> <a href="https://github.com/ByteClub-CPP/murmur" target="_blank" rel="noopener noreferrer">Murmur Repo</a></p>
-                </div>
             <div className="project">
                 <h3><u>SerenityNest — Flutter/Dart/Firebase </u></h3>
                 <p>Creation of a mental health android app called SerenityNest using Dart and Flutter on Android Studio to improve the mental health of all users. Includes user authorization functionality using Firebase.</p>

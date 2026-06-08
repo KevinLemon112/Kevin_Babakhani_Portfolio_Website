@@ -147,7 +147,6 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 932px) {
     /* Adjust styles for smaller screens */
-    /* Adjust styles for smaller screens */
     .container {
         padding: 10px;
     }
